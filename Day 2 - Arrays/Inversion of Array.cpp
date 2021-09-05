@@ -1,5 +1,8 @@
 class Solution {
     public:
+    // arr[]: Input Array
+    // N : Size of the Array arr[]
+    // Function to count inversions in the array.
     int merge(long long arr[], long long temp[], int left, int mid, int right) {
         int i = left;
         int j = mid;
