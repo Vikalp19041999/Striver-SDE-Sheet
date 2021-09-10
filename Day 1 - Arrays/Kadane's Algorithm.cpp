@@ -10,7 +10,6 @@ class Solution{
     // n: size of array
     //Function to find the sum of contiguous subarray with maximum sum.
     int maxSubarraySum(int arr[], int n){
-        
         // Your code here
         int sum = 0;
         int maximum = INT_MIN;
